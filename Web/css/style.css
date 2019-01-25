@@ -1,4 +1,22 @@
 #wrap
 {
     display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    
+}
+.classheader
+{
+    display: flex;
+    align-items: flex-start;
+}
+.classnav
+{
+    display: flex;
+    align-items: flex-end;
+}
+.classection
+{
+    display: flex;
+    align-item: flex-end;
 }

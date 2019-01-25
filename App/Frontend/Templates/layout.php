@@ -12,11 +12,14 @@
   
   <body>
     <div id="wrap">
+      <div class="classheader">
       <header>
         <h1><a href="/">Mon super site</a></h1>
         <p>Comment ça, il n'y a presque rien ?</p>
       </header>
-      
+      </div>
+
+      <div class="classnav">
       <nav>
         <ul>
           <li><a href="/">Accueil</a></li>
@@ -26,16 +29,17 @@
           <?php } ?>
         </ul>
       </nav>
+      </div>
       
-      <div id="content-wrap">
-        <section id="main">
+      <div id="classection">
+        <section>
           <?php if ($user->hasFlash()) echo '<p style="text-align: center;">', $user->getFlash(), '</p>'; ?>
           
           <?= $content ?>
         </section>
       </div>
-    
-      <footer></footer>
     </div>
+    <footer>
+    </footer>
   </body>
 </html>
