@@ -15,7 +15,7 @@
 * { margin: 0; padding: 0; outline: 0 }
 
 body {
-	background: #CCC;
+	background-color: black;
 	font: 70%/1.5em Verdana, Tahoma, arial, sans-serif;
 	color: #555; 
 	text-align: center;
@@ -314,7 +314,7 @@ nav ul li#current a {
 }
 #main h2 a {
 	background: none;
-	color: #88ac0b;
+	color: black;
 	text-decoration: none;
 }
 
