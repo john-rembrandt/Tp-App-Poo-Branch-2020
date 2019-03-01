@@ -1,0 +1,80 @@
+h2
+{
+	color: #ff00ff;
+}
+#page
+{
+	display: flex;
+	flex-direction: column;
+	background-image: url("/imagesSave/skater_grab.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#headerNav
+{
+	display: flex;
+	flex-direction: column;	
+}
+
+.elementHeaderNav:nth-child(1)
+{	
+	font-size: 25px;
+	color: violet;	
+}
+
+.elementHeaderNav:nth-child(2)
+{	
+	font-size: 25px;
+	color: red;	
+}
+#section
+{
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	align-content: center;	
+}
+.classection
+{
+	font-size: 25px;
+	color: red;
+	text-align: center;
+}
+h1.titrePrincipal
+{
+	font-family: monospace;	
+}
+a {
+	color: orange;
+	text-align: center;	
+}
+a.titre
+{
+	padding-left: 1em;
+	font-size: 50px;
+	color: coral;
+}
+p
+{
+	color: green;
+}
+p.slogan
+{
+	padding-left: 9em;
+	color: black;
+	font-family: fantasy;
+}
+ul.classNavUl
+{
+	padding: 0em;
+}
+li.accueil
+{
+	display: inline;
+	padding-right: 0.5em;
+	padding-left: 9.4em;
+}
+li.login
+{
+	display: inline;
+}

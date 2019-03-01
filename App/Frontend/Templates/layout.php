@@ -1,45 +1,56 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>
-      <?= isset($title) ? $title : 'Mon super site' ?>
-    </title>
-    
-    <meta charset="utf-8" />
-    
-    <link rel="stylesheet" href="/css/style.css" type="text/css" />
-  </head>
-  
-  <body>
-    <div id="wrap">
-      <div class="classheader">
-      <header>
-        <h1><a href="/">Mon super site</a></h1>
-        <p>Comment ça, il n'y a presque rien ?</p>
-      </header>
-      </div>
+<head>
+<title>
+      <?= isset($title) ? $title : 'sk8 or die' ?>
+</title>
 
-      <div class="classnav">
-      <nav>
-        <ul>
-          <li><a href="/">Accueil</a></li>
-          <?php if ($user->isAuthenticated()) { ?>
-          <li><a href="/admin/">Admin</a></li>
-          <li><a href="/admin/news-insert.html">Ajouter une news</a></li>
-          <?php } ?>
-        </ul>
-      </nav>
-      </div>
-      
-      <div id="classection">
-        <section>
-          <?php if ($user->hasFlash()) echo '<p style="text-align: center;">', $user->getFlash(), '</p>'; ?>
+<meta charset="utf-8" />
+
+<link rel="stylesheet" href="/css/styles.css" type="text/css" />
+</head>
+
+<body>
+	<div id="page">
+		<div id="headerNav">
+			<div class="elementHeaderNav">
+				<header>
+					<h1 class="titrePrincipal">
+						<a class="titre" href="/">tp-app-poo modif css</a>
+					</h1>
+					<p class="slogan">"sk8ordie Team"</p>
+				</header>
+			</div>
+
+			<div class="elementHeaderNav">
+				<nav>
+					<ul class="classNavUl">
+						<li class="accueil"><a href="/">Accueil</a></li>
+						<li class="login"><a href="/admin/">Login</a></li>
+                        	<?php if ($user->isAuthenticated()) { ?>
           
-          <?= $content ?>
-        </section>
-      </div>
-    </div>
-    <footer>
-    </footer>
-  </body>
+                        <li><a href="/admin/">Admin</a></li>
+						<li><a href="/admin/news-insert.html">Ajouter une news</a></li>
+						
+                        	<?php } ?>
+          
+                     </ul>
+				</nav>
+			</div>
+		</div>
+
+		<div id="section">
+			<div class="classection">
+				<section>
+				
+          			<?php if ($user->hasFlash()) echo '<p style="text-align: center;">', $user->getFlash(), '</p>'; ?>
+          
+          			<?= $content ?>
+          			
+        		</section>
+			</div>
+		</div>
+	</div>
+	<footer> </footer>
+</body>
 </html>
