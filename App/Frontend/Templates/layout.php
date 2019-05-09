@@ -52,5 +52,7 @@
 		</div>
 	</div>
 	<footer> </footer>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="/test.js"></script>
 </body>
 </html>
