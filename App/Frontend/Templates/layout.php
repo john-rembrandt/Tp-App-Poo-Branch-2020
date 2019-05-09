@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>
+<title id="title">
       <?= isset($title) ? $title : 'sk8 or die' ?>
 </title>
 
