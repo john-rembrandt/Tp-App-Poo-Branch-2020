@@ -16,7 +16,7 @@
 			<div class="elementHeaderNav">
 				<header>
 					<h1 class="titrePrincipal">
-						<a class="titre" href="/">tp-app-poo modif css</a>
+						<a id="titre" href="/">tp-app-poo modif css</a>
 					</h1>
 					<p class="slogan">"sk8ordie Team"</p>
 				</header>
