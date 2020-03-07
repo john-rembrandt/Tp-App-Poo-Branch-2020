@@ -1,6 +1,10 @@
 h2
 {
-	color: #ff00ff;
+	color: #ff0080;
+}
+a.titrePrincipalNews
+{
+	color: blue;
 }
 #page
 {
@@ -44,7 +48,8 @@ h1.titrePrincipal
 {
 	font-family: monospace;	
 }
-a {
+a
+{
 	color: orange;
 	text-align: center;	
 }
@@ -52,7 +57,7 @@ a.titre
 {
 	padding-left: 1em;
 	font-size: 50px;
-	color: coral;
+	color: blue;
 }
 p
 {
