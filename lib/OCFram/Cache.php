@@ -1,10 +1,10 @@
 <?php
 
-namespace lib;
+namespace OCFram;
 
 class Cache
 {
-    public $fichierCache = __DIR__.'\App\Frontend\Modules\News\Views\cache.html';
+    public $fichierCache = __DIR__.'\Frontend\Modules\News\Views\cache.html';
     
     
     public $donnee;
