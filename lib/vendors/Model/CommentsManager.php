@@ -8,7 +8,7 @@ abstract class CommentsManager extends Manager
 {
   /**
    * Méthode permettant d'ajouter un commentaire.
-   * @param $comment Le commentaire à ajouter
+   * @param $comment //le commentaire à ajouter
    * @return void
    */
   abstract protected function add(Comment $comment);
@@ -29,7 +29,7 @@ abstract class CommentsManager extends Manager
   
   /**
    * Méthode permettant d'enregistrer un commentaire.
-   * @param $comment Le commentaire à enregistrer
+   * @param $comment //Le commentaire à enregistrer
    * @return void
    */
   public function save(Comment $comment)
@@ -46,14 +46,14 @@ abstract class CommentsManager extends Manager
   
   /**
    * Méthode permettant de récupérer une liste de commentaires.
-   * @param $news La news sur laquelle on veut récupérer les commentaires
+   * @param $news //La news sur laquelle on veut récupérer les commentaires
    * @return array
    */
   abstract public function getListOf($news);
 
   /**
    * Méthode permettant de modifier un commentaire.
-   * @param $comment Le commentaire à modifier
+   * @param $comment //Le commentaire à modifier
    * @return void
    */
   abstract protected function modify(Comment $comment);

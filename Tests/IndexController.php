@@ -1,11 +1,11 @@
 <?php
 namespace Application\Controller;
-
+/*
 use Application\Cache\Cache;
 use Application\Model\Model;
 use Lib\Page;
 use Lib\HTTPRequest;
-
+*/
 class IndexController
 {
     
@@ -23,10 +23,10 @@ class IndexController
     public function __CONSTRUCT()
     {  
         
-        $this->donnee = new Model();
-        $this->cacheIndex = new Cache();
-        $this->page = new Page();
-        //$this->httpRequest = new HTTPRequest(); A intégrer
+        //$this->donnee = new Model();
+        //$this->cacheIndex = new Cache();
+        //$this->page = new Page();
+        //$this->httpRequest = new HTTPRequest(); A intï¿½grer
         
     }
 
