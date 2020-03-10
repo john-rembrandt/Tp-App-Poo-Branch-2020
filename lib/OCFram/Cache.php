@@ -36,7 +36,7 @@ class Cache
     }    
     public function dateCreationCache() 
     {
-        $expire = time() -10; // valable dix seconde
+        $expire = time() -30; // valable dix seconde
         if(filemtime($this->fichierCache) > $expire)
         {
             echo date ("F d Y H:i:s.", filemtime($this->fichierCache));
