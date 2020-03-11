@@ -29,7 +29,9 @@ class HTTPResponse extends ApplicationComponent
   
   public function send()
   {
-      /* $cacheIndex = new Cache();
+      $cacheIndex = new Cache();
+      var_dump($cacheIndex->fichierCache);
+      /* 
       if($cacheIndex->dateCreationCache() == true)
       {
           $cacheIndex->lireCache();
