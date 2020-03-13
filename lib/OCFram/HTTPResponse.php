@@ -30,13 +30,15 @@ class HTTPResponse extends ApplicationComponent
   public function send()
   {
       $cacheIndex = new Cache();
-      if($cacheIndex->dateCreationCache() == true)
+      if($cacheIndex->dateCreationCache() == false)
       {
-          $cacheIndex->lireCache();
-          echo "on lit le cache";
+          $cacheIndex->creerCache($cacheIndex->fichierCache, $this->page->getGeneratedPage());
+          exit($cacheIndex->lireCache());
+          //echo "on lit le cache";
       }
       else
       {
+          //exit($cacheIndex->lireCache());
           exit($this->page->getGeneratedPage());
       }
     // Actuellement, cette ligne a peu de sens dans votre esprit.

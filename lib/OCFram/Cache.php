@@ -4,7 +4,7 @@ namespace OCFram;
 
 class Cache
 {
-    public $fichierCache = __DIR__.'\..\..\..\cache.html';
+    public $fichierCache = __DIR__.'/fichierCache.php';
     
     
     public $donnee;
@@ -20,7 +20,7 @@ class Cache
         else
         {
             
-             $this->creerCache();
+             $this->creerCache($fichierCache, $data);
         }
     }
 
