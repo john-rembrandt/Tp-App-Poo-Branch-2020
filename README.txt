@@ -6,6 +6,7 @@ Chose faites:
 4: ajout d'un fichier info.php
 5: ajout d'un fichier test.js pour premier pas avec JQuery.
 6: ajout de cette branche modifCss issus du TP original.
+7: ajout des fichier de définitions .dtd au dossiers Config.
 
 chose à faire:
 
