@@ -1,0 +1,5 @@
+<!ELEMENT definitions (define)*>
+<!ELEMENT define (#PCDATA)>
+<!ATTLIST define var CDATA #REQUIRED
+                 value CDATA #REQUIRED>
+                
