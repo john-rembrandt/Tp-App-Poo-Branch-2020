@@ -7,6 +7,7 @@ choses faites:
 5: ajout d'une condition pour gérer le cache via la fonction send() de HTTPResponse.php.
 6: ajout du fichier "fichierCache.php" dans lib/OCFram.(pour test, à changer d'urgence.).
 7: ajout du fichier "fichierCache.php" dans les vues du module news.(pas sur encore du bien fondé).
+8: ajout des fichier de définitions .dtd au dossiers Config.
 
 
 choses a faires:
