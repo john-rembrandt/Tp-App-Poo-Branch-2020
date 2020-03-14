@@ -4,7 +4,11 @@ namespace OCFram;
 
 class Cache
 {
+<<<<<<< HEAD
     public $fichierCache = __DIR__.'/fichierCache.php';
+=======
+    public $fichierCache = __DIR__.'/../../App/Frontend/News/Views/cache.html';
+>>>>>>> 23f60aa43106788e6862a95fb0160c6f18373752
     
     
     public $donnee;
@@ -36,7 +40,7 @@ class Cache
     }    
     public function dateCreationCache() 
     {
-        $expire = time() -10; // valable dix seconde
+        $expire = time() -30; // valable dix seconde
         if(filemtime($this->fichierCache) > $expire)
         {
             echo date ("F d Y H:i:s.", filemtime($this->fichierCache));
