@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>
-      dest test et des test     </title>
+      test des formulaires    </title>
     
     <meta charset="utf-8" />
     
@@ -25,16 +25,27 @@
       <div id="content-wrap">
         <section id="main">
                     
-          <p>Par <em>robert</em>, le 11/02/2018 à 18h51</p>
-<h2>dest test et des test </h2>
-<p>analyser sous tout les angles</p>
+          <p>Par <em>marco</em>, le 12/02/2018 à 19h18</p>
+<h2>test des formulaires</h2>
+<p>problemes avec les entrees<br />
+</p>
 
 
-<p><a href="commenter-5.html">Ajouter un commentaire</a></p>
+<p><a href="commenter-7.html">Ajouter un commentaire</a></p>
 
-<p>Aucun commentaire n'a encore été posté. Soyez le premier à en laisser un !</p>
+<fieldset>
+  <legend>
+    Posté par <strong>LOU</strong> le 13/02/2018 à 18h37      </legend>
+  <p>HELLO MI DE LOU</p>
+</fieldset>
+<fieldset>
+  <legend>
+    Posté par <strong>john</strong> le 11/11/2018 à 02h32      </legend>
+  <p>j ai faim<br />
+</p>
+</fieldset>
 
-<p><a href="commenter-5.html">Ajouter un commentaire</a></p>        </section>
+<p><a href="commenter-7.html">Ajouter un commentaire</a></p>        </section>
       </div>
     
       <footer></footer>

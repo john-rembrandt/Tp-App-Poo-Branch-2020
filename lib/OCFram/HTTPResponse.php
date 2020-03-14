@@ -1,7 +1,6 @@
 <?php
 namespace OCFram;
 
-
 class HTTPResponse extends ApplicationComponent
 {
   protected $page;
@@ -30,13 +29,8 @@ class HTTPResponse extends ApplicationComponent
   public function send()
   {
       $cacheIndex = new Cache();
-<<<<<<< HEAD
+      
       if($cacheIndex->dateCreationCache() == false)
-=======
-      var_dump($cacheIndex->fichierCache);
-      /* 
-      if($cacheIndex->dateCreationCache() == true)
->>>>>>> 23f60aa43106788e6862a95fb0160c6f18373752
       {
           $cacheIndex->creerCache($cacheIndex->fichierCache, $this->page->getGeneratedPage());
           exit($cacheIndex->lireCache());
@@ -46,11 +40,11 @@ class HTTPResponse extends ApplicationComponent
       {
           //exit($cacheIndex->lireCache());
           exit($this->page->getGeneratedPage());
-      } */
+      }
     // Actuellement, cette ligne a peu de sens dans votre esprit.
     // Promis, vous saurez vraiment ce qu'elle fait d'ici la fin du chapitre
     // (bien que je suis sûr que les noms choisis sont assez explicites !).
-    exit($this->page->getGeneratedPage());
+    //exit($this->page->getGeneratedPage());
   }
 
   public function setPage(Page $page)
