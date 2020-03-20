@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>
-      test des formulaires    </title>
+      Mon super site    </title>
     
     <meta charset="utf-8" />
     
@@ -25,27 +25,8 @@
       <div id="content-wrap">
         <section id="main">
                     
-          <p>Par <em>marco</em>, le 12/02/2018 à 19h18</p>
-<h2>test des formulaires</h2>
-<p>problemes avec les entrees<br />
-</p>
-
-
-<p><a href="commenter-7.html">Ajouter un commentaire</a></p>
-
-<fieldset>
-  <legend>
-    Posté par <strong>LOU</strong> le 13/02/2018 à 18h37      </legend>
-  <p>HELLO MI DE LOU</p>
-</fieldset>
-<fieldset>
-  <legend>
-    Posté par <strong>john</strong> le 11/11/2018 à 02h32      </legend>
-  <p>j ai faim<br />
-</p>
-</fieldset>
-
-<p><a href="commenter-7.html">Ajouter un commentaire</a></p>        </section>
+          <h2>Document non trouvé</h2>
+<p>Le document auquel vous tentez d'accéder est introuvable. Vous pouvez contacter l'administrateur du site si vous pensez qu'il s'agit d'un bug.</p>        </section>
       </div>
     
       <footer></footer>
