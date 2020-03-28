@@ -7,6 +7,8 @@ le but pour 2020:
 
 Déja fait:
 
+
+
 1: adapté la connexion a la base de donnée dans PDOFactory.php(lib/OCFram).
 
 2: créer un virtualhost sur apache.
@@ -24,7 +26,11 @@ Déja fait:
 8: remplit la base pour les tests.
 
 
+
+
 A faire:
+
+
 
 1: améliorer largement le système de mise en cache via la branche "cache".
 
