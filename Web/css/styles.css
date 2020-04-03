@@ -69,6 +69,10 @@ p.slogan
 	color: black;
 	font-family: fantasy;
 }
+.navigation
+{
+	flex-direction: row;
+}
 ul.classNavUl
 {
 	padding: 0em;
@@ -76,10 +80,13 @@ ul.classNavUl
 li.accueil
 {
 	display: inline;
-	padding-right: 0.5em;
-	padding-left: 9.4em;
+	
 }
 li.login
+{
+	display: inline;
+}
+li.accueilNews
 {
 	display: inline;
 }
