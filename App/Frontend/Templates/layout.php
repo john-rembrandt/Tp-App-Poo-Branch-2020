@@ -26,7 +26,7 @@
       <div class="elementHeaderNav">
         <nav>
           <ul class="classNavUl">
-            <li class="accueil"><a href="/">Accueil</a></li>
+            <li class="accueil"><a href="/accueil">Accueil</a></li>
             <li class="login"><a href="/admin/">Login</a></li>
             <?php if ($user->isAuthenticated()) { ?>
 
