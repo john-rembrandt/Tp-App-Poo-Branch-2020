@@ -10,6 +10,7 @@ class AccueilController extends BackController
     public function executeIndex(HTTPRequest $request)
     {
         $helloWorld = 'salut le monde';
+        //echo $helloWorld;
         $this->page->addVar('Hello-World', $helloWorld);
     }
 }
