@@ -1,12 +1,8 @@
-h2
-{
-	color: #ff0080;
-}
-a.titrePrincipalNews
-{
-	color: blue;
-}
-#page
+                   /* Container body qui comprend toute la page */
+@import url(/css/index.css);                   
+                   
+/* Premier Container général du body */
+#containerPage
 {
 	display: flex;
 	flex-direction: column;
@@ -14,79 +10,103 @@ a.titrePrincipalNews
 	background-repeat: no-repeat;
 	background-position: center;
 }
-#headerNav
+/* lien généraux */
+a
+{	
+	text-align: center;	
+}
+/* paragraphe généraux */
+p
+{
+	color: green;
+}
+
+
+
+
+                  
+
+
+
+								/* HEADER */
+								
+								
+/* Deuxieme Container du body contenant le header et le nav */
+#containerHeaderNav
 {
 	display: flex;
 	flex-direction: column;	
 }
-
+/* class enfants du parent headeNav */
 .elementHeaderNav:nth-child(1)
 {	
-	font-size: 25px;
-	color: violet;	
+	font-size: 25px;	
 }
-
+/* class enfants du parent headeNav contenant la navigation */
 .elementHeaderNav:nth-child(2)
 {	
-	font-size: 25px;
-	color: red;	
+	font-size: 25px;	
 }
-#section
+/* header titre h1 nth-child(1) */
+h1.titrePrincipalHeader
+{
+	font-family: monospace;	
+}
+/* header lien titre nth-child(1) */
+a.titreHeader
+{
+	padding-left: 1em;
+	font-size: 50px;
+	color: brown;
+}
+/* header paragraph slogan nth-child(1) */
+p.slogan
+{
+	font-family: fantasy;
+	padding-left: 9em;
+	color: red;
+}
+/* nav liste non ordonnée des liens de navigation nth-child(2)*/
+ul.NavUl
+{
+	
+}
+/* nav element de liste contenant un lien de nav vers accueil nth-child(2) */
+li.accueil
+{
+		
+}
+/* nav element de liste contenant un lien de nav vers le login nth-child(2) */
+li.login
+{
+
+}
+/* nav element de liste contenant un lien de nav vers la page accueil des News nth-child(2) */
+li.accueilNews
+{
+	
+}
+
+
+
+								/* SECTION */
+								
+															
+/* Troisiéme Container du body contenant une section comprenant les news */
+#containerSection
 {
 	display: flex;
 	text-align: center;
 	flex-direction: column;
 	align-content: center;	
 }
-.classection
+/* Class de la section des news */
+.section
 {
 	font-size: 25px;
 	color: red;
 	text-align: center;
 }
-h1.titrePrincipal
-{
-	font-family: monospace;	
-}
-a
-{
-	color: orange;
-	text-align: center;	
-}
-a.titre
-{
-	padding-left: 1em;
-	font-size: 50px;
-	color: blue;
-}
-p
-{
-	color: green;
-}
-p.slogan
-{
-	padding-left: 9em;
-	color: red;
-	font-family: fantasy;
-}
-.navigation
-{
-	flex-direction: row;
-}
-ul.classNavUl
-{
-	padding: 0em;
-}
-li.accueil
-{
-	
-	
-}
-li.login
-{
 
-}
-li.accueilNews
-{
-	
-}
+
+

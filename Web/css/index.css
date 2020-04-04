@@ -1,0 +1,18 @@
+ /* index.php fichier d affichage des 5 premieres news */
+                   
+                   
+/* index.php titre du module de News h2 */
+h2
+{
+	color: #ff0080;
+}
+/* index.php lien du titre h2 */
+a.titrePrincipalNews
+{
+	color: blue;
+}
+/* index.php paragraphe du contenu des 5 dernieres news de l accueil news */
+p.contenu
+{
+	color: grey;
+}

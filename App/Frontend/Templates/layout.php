@@ -12,20 +12,20 @@
 </head>
 
 <body>
-  <div id="page">
-    <div id="headerNav">
+  <div id="containerPage">
+    <div id="containerHeaderNav">
       <div class="elementHeaderNav">
         <header>
-          <h1 class="titrePrincipal">
-<a id="titre" href="/">tp-app-poo modif css</a>
-    </h1>
-          <p class="slogan">"sk8ordie Team"</p>
+          <h1 class="titrePrincipalHeader">
+          	<a class="titreHeader" href="/">tp-app-poo modif css</a>
+          </h1>
+          	<p class="slogan">"sk8ordie Team"</p>
         </header>
       </div>
 
       <div class="elementHeaderNav">
-        <nav class="navigation">
-          <ul class="classNavUl">
+        <nav>
+          <ul class="NavUl">
             <li class="accueil"><a href="/accueil">Accueil</a></li>
             <li class="accueilNews"><a href="/">Accueil News</a></li>
             <li class="login"><a href="/admin/">Login</a></li>
@@ -41,8 +41,8 @@
       </div>
     </div>
 
-    <div id="section">
-      <div class="classection">
+    <div id="containerSection">
+      <div class="section">
         <section>
 
           <?php if ($user->hasFlash()) echo '<p style="text-align: center;">', $user->getFlash(), '</p>'; ?>
