@@ -13,36 +13,56 @@
 
 <body>
   <div id="containerPage">
+  
     <div id="containerHeaderNav">
+    
       <div class="elementHeaderNav">
-        <header>
+      
+        <header> 
+        
           <h1 class="titrePrincipalHeader">
+          
           	<a class="titreHeader" href="/">tp-app-poo modif css</a>
+          	
           </h1>
+          
           	<p class="slogan">"sk8ordie Team"</p>
+          	
         </header>
-      </div>
+        
+       </div>
 
       <div class="elementHeaderNav">
+      
         <nav>
+        
           <ul class="NavUl">
+          
             <li class="accueil"><a href="/accueil">Accueil</a></li>
+            
             <li class="accueilNews"><a href="/">Accueil News</a></li>
+            
             <li class="login"><a href="/admin/">Login</a></li>
+            
             <?php if ($user->isAuthenticated()) { ?>
 
               <li><a href="/admin/">Admin</a></li>
               <li><a href="/admin/news-insert.html">Ajouter une news</a></li>
 
-              <?php } ?>
+             <?php } ?>
 
           </ul>
+          
         </nav>
+        
       </div>
+      
     </div>
 
     <div id="containerSection">
+    
       <div class="section">
+      
         <section>
 
           <?php if ($user->hasFlash()) echo '<p style="text-align: center;">', $user->getFlash(), '</p>'; ?>
@@ -50,12 +70,18 @@
             <?= $content ?>
 
         </section>
+        
       </div>
+      
     </div>
+    
   </div>
+  
   <footer></footer>
+  
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
   <script src="/test.js"></script>
+  
 </body>
 
 </html>
