@@ -12,11 +12,11 @@
 </head>
 
 <body>
-  <div id="containerPage">
+  <div id="containerBody">
   
-    <div id="containerHeaderNav">
+    <div id="containerHeader">
     
-      <div class="elementHeaderNav">
+      <div class="elementHeader">
       
         <header> 
         
@@ -32,17 +32,17 @@
         
        </div>
 
-      <div class="elementHeaderNav">
+      <div class="elementHeader">
       
         <nav>
         
           <ul class="NavUl">
           
-            <li class="accueil"><a href="/accueil">Accueil</a></li>
+            <li><a href="/accueil">Accueil</a></li>
             
-            <li class="accueilNews"><a href="/">Accueil News</a></li>
+            <li><a href="/">Accueil News</a></li>
             
-            <li class="login"><a href="/admin/">Login</a></li>
+            <li><a href="/admin/">Login</a></li>
             
             <?php if ($user->isAuthenticated()) { ?>
 

@@ -1,24 +1,52 @@
- /* index.php fichier d affichage des 5 premieres news */
+ 
+ 								/* SECTION */
+								
+															
+/* Troisiéme Container du body contenant une section comprenant les news */
+#containerSection
+{
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	align-content: center;
+		
+}
+
+/* Class de la section des news */
+.section
+{
+	font-size: 25px;
+	color: red;
+	text-align: center;
+}
+ 
+/* index.php fichier d affichage des 5 premieres news */
                    
- .news
- {
-	 border: 3px black solid;
-	 text-align: center;
-	 width: 75%;
-	 margin: 12.5%;
- }                  
+.news
+{
+    border: 3px black solid;
+	text-align: center;
+	width: 75%;
+	margin: 12.5%;
+}
+                   
 /* index.php titre du module de News h2 */
 h2
 {
 	text-transform: uppercase;
 }
+
 /* index.php lien du titre h2 */
 a.titrePrincipalNews
 {
 	color: blue;
 }
+
 /* index.php paragraphe du contenu des 5 dernieres news de l accueil news */
 p.contenu
 {
 	color: red;
 }
+
+
+

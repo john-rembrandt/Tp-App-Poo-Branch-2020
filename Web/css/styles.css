@@ -1,10 +1,13 @@
-                   /* Container body qui comprend toute la page */
 @import url(/css/index.css);
 @import url(/css/show.css);
-@import url(/css/insertComment.css);                   
+@import url(/css/insertComment.css); 
+
+                  
+                   /* Container body qui comprend toute la page */
                    
+                 
 /* Premier Container général du body */
-#containerPage
+#containerBody
 {
 	display: flex;
 	flex-direction: column;
@@ -33,23 +36,22 @@ p
 								/* HEADER */
 								
 								
-/* Deuxieme Container du body contenant le header et le nav */
-#containerHeaderNav
+/* Deuxieme Container du body contenant le header top bar et le nav */
+#containerHeader
 {
 	display: flex;
 	flex-direction: column;	
 }
-/* class enfants du parent headeNav */
-.elementHeaderNav:nth-child(1)
+								/* HEADER TOP BAR */
+
+
+/* class enfants du parent containerHeader */
+.elementHeader-1:nth-child(1)
 {	
 	font-size: 25px;
 	background-color: burlywood;	
 }
-/* class enfants du parent headeNav contenant la navigation */
-.elementHeaderNav:nth-child(2)
-{	
-	font-size: 25px;	
-}
+
 /* header titre h1 nth-child(1) */
 h1.titrePrincipalHeader
 {
@@ -69,48 +71,23 @@ p.slogan
 	padding-left: 9em;
 	color: seagreen;
 }
+
+
+
+									/* HEADER NAV */
+									
+									
+									
+/* class enfants du parent headeNav contenant la navigation */
+.elementHeader:nth-child(2)
+{	
+	font-size: 25px;	
+}
+
+
 /* nav liste non ordonnée des liens de navigation nth-child(2)*/
 ul.NavUl
 {
 	
 }
-/* nav element de liste contenant un lien de nav vers accueil nth-child(2) */
-li.accueil
-{
-		
-}
-/* nav element de liste contenant un lien de nav vers le login nth-child(2) */
-li.login
-{
-
-}
-/* nav element de liste contenant un lien de nav vers la page accueil des News nth-child(2) */
-li.accueilNews
-{
-	
-}
-
-
-
-								/* SECTION */
-								
-															
-/* Troisiéme Container du body contenant une section comprenant les news */
-#containerSection
-{
-	display: flex;
-	text-align: center;
-	flex-direction: column;
-	align-content: center;
-		
-}
-/* Class de la section des news */
-.section
-{
-	font-size: 25px;
-	color: red;
-	text-align: center;
-}
-
-
 
