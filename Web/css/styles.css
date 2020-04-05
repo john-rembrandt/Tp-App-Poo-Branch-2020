@@ -40,7 +40,8 @@ p
 /* class enfants du parent headeNav */
 .elementHeaderNav:nth-child(1)
 {	
-	font-size: 25px;	
+	font-size: 25px;
+	background-color: burlywood;	
 }
 /* class enfants du parent headeNav contenant la navigation */
 .elementHeaderNav:nth-child(2)
@@ -64,7 +65,7 @@ p.slogan
 {
 	font-family: fantasy;
 	padding-left: 9em;
-	color: red;
+	color: seagreen;
 }
 /* nav liste non ordonnée des liens de navigation nth-child(2)*/
 ul.NavUl
@@ -98,7 +99,8 @@ li.accueilNews
 	display: flex;
 	text-align: center;
 	flex-direction: column;
-	align-content: center;	
+	align-content: center;
+		
 }
 /* Class de la section des news */
 .section
