@@ -1,0 +1,10 @@
+{
+	"name" : "admin/tp-app-poo-branch-2020",
+	"description" : "installation de composer autolaod a la place de splClassLoader",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "john-rembrandt",
+			"email" : "sk8mystic@gmail.com"
+		}
+	]
+}
