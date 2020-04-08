@@ -4,6 +4,11 @@ const DEFAULT_APP = 'Frontend';
 // Si l'application n'est pas valide, on va charger l'application par défaut qui se chargera de générer une erreur 404
 if (!isset($_GET['app']) || !file_exists(__DIR__.'/../App/'.$_GET['app'])) $_GET['app'] = DEFAULT_APP;
 
+
+// on apppel l'autoload psr-4 générer par composer aprés ajout des namespaces au composer.json
+require '/vendor/autoload.php';
+
+/* 
 // On commence par inclure la classe nous permettant d'enregistrer nos autoload
 require __DIR__.'/../lib/OCFram/SplClassLoader.php';
 
@@ -21,7 +26,7 @@ $entityLoader = new SplClassLoader('Entity', __DIR__.'/../lib/vendors');
 $entityLoader->register();
 
 $formBuilderLoader = new SplClassLoader('FormBuilder', __DIR__.'/../lib/vendors');
-$formBuilderLoader->register();
+$formBuilderLoader->register(); */
 
 
 // Il ne nous suffit plus qu'à déduire le nom de la classe et de l'instancier
