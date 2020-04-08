@@ -6,5 +6,15 @@
 			"name" : "john-rembrandt",
 			"email" : "sk8mystic@gmail.com"
 		}
-	]
+	],
+	"autoload" : {
+		"psr-4" : {
+			"App" : "/..",
+			"OCFram" : "/../lib",
+			"Model" : "/../lib/vendors",
+			"Entity" : "/../lib/vendors",
+			"FormBuilder" : "/../lib/vendors"
+	}
+		
+	}
 }
