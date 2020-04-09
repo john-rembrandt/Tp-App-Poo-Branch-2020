@@ -1,7 +1,7 @@
 <?php
 namespace Model;
 
-use \Entity\Comment;
+use Entity\Comment;
 
 class CommentsManagerPDO extends CommentsManager
 {

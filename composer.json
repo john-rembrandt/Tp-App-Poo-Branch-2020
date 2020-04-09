@@ -9,11 +9,8 @@
 	],
 	"autoload" : {
 		"psr-4" : {
-			"App\\" : "/..",
-			"OCFram\\" : "/../lib",
-			"Model\\" : "/../lib/vendors",
-			"Entity\\" : "/../lib/vendors",
-			"FormBuilder\\" : "/../lib/vendors"
+			"App" : "App/Frontend/"
 		}
-	}
+	},
+	"type" : "project"
 }

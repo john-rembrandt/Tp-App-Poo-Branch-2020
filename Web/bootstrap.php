@@ -6,7 +6,7 @@ if (!isset($_GET['app']) || !file_exists(__DIR__.'/../App/'.$_GET['app'])) $_GET
 
 
 // on apppel l'autoload psr-4 générer par composer aprés ajout des namespaces au composer.json
-require '/vendor/autoload.php';
+require '../vendor/autoload.php';
 
 /* 
 // On commence par inclure la classe nous permettant d'enregistrer nos autoload
