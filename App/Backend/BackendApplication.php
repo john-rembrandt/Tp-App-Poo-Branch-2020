@@ -1,7 +1,7 @@
 <?php
 namespace App\Backend;
 
-use \OCFram\Application;
+use OCFram\Application;
 
 class BackendApplication extends Application
 {

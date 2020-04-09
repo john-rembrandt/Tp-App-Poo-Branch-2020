@@ -3,6 +3,8 @@ namespace App\Frontend;
 
 use \OCFram\Application;
 
+//use \OCFram\Application;
+
 class FrontendApplication extends Application
 {
   public function __construct()
