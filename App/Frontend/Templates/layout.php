@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>
-      <?= isset($title) ? $title : 'Mon super site' ?>
+      <?= isset($title) ? $title : 'SK8 or DEV' ?>
     </title>
     
     <meta charset="utf-8" />
