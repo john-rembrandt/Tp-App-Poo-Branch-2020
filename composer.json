@@ -7,15 +7,14 @@
 			"email" : "sk8mystic@gmail.com"
 		}
 	],
-	"autoload": {
-		"psr-4": {
-		"App\\Frontend\\" : "App/Frontend/",
-		"App\\Backend\\" : "App/Backend/",
-		"OCFram\\" : "lib/OCFram",
-		"Model\\" : "lib/vendors/Model",
-		"Entity\\" : "lib/vendors/Entity",
-		"FormBuilder\\" : "lib/vendors/FormBuilder"
-		
+	"autoload" : {
+		"psr-4" : {
+			"App\\Frontend\\" : "App/Frontend/",
+			"App\\Backend\\" : "App/Backend/",
+			"OCFram\\" : "lib/OCFram",
+			"Model\\" : "lib/vendors/Model",
+			"Entity\\" : "lib/vendors/Entity",
+			"FormBuilder\\" : "lib/vendors/FormBuilder"
 		}
 	},
 	"type" : "project"
