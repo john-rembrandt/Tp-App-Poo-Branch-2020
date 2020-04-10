@@ -1,6 +1,6 @@
 /Tests
 .settings
-_project.xml
+.project.xml
 .buildpath
 .project
 .dbeaver/

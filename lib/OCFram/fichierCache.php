@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>
-      Mon super site    </title>
+      Liste des 5 dernières news    </title>
     
     <meta charset="utf-8" />
     
@@ -25,8 +25,20 @@
       <div id="content-wrap">
         <section id="main">
                     
-          <h2>Document non trouvé</h2>
-<p>Le document auquel vous tentez d'accéder est introuvable. Vous pouvez contacter l'administrateur du site si vous pensez qu'il s'agit d'un bug.</p>        </section>
+            <h2><a href="news-8.html">composer autoload psr-4</a></h2>
+  <p>ca marche ! <br />
+de la tuerie !<br />
+yehaa</p>
+  <h2><a href="news-7.html">test des formulaires</a></h2>
+  <p>problemes avec les entrees<br />
+</p>
+  <h2><a href="news-6.html">activiter du dimanche</a></h2>
+  <p>faire le puzzle avec papa</p>
+  <h2><a href="news-5.html">dest test et des test </a></h2>
+  <p>analyser sous tout les angles</p>
+  <h2><a href="news-4.html">test d' ocfram fais main</a></h2>
+  <p>beaucoup d erreur de casse</p>
+        </section>
       </div>
     
       <footer></footer>
